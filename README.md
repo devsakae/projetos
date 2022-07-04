@@ -1,3 +1,4 @@
-# extras
-Exercícios extras e projetos pessoais
-# projetos
+# Projetos
+
+- Faixas do karatê
+- Pagando o pato
