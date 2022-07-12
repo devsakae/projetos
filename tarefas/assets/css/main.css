@@ -3409,3 +3409,12 @@ body.is-menu-visible #menu .close {
 	color: rgb(250, 210, 210);
 	text-shadow: 2px 2px indigo;
 }
+
+.option {
+  display: inline-block;
+  align-content: space-around;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  width: 150px;
+  background-color: #95d5e5;
+}

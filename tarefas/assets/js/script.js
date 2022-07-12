@@ -1,4 +1,4 @@
-import { mathOne } from './conteudo.js';
+import { mathOne, mathTwo, logicOne } from './conteudo.js';
 
 const campo = document.getElementById('questoes');
 let temp = 0;

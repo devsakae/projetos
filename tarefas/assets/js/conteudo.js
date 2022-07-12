@@ -38,7 +38,7 @@ const mathOne = {
 };
 
 const mathTwo = {
-  q0: 'Quantas patas tem um casal de patos?',
+  q0: 'Rodrigo comprou <strong>2</strong> guitarras',
   r0: {
     c: 1,
     op1: 2,
@@ -54,4 +54,22 @@ const mathTwo = {
   },
 };
 
-export { mathOne, mathTwo }
+const logicOne = {
+  q0: 'Cada guitarra (ou violão) possui <strong>6 cordas</strong>. Rodrigo tem <strong>1</strong> guitarra e <strong>2</strong> violões. Catarina arrebentou <strong>2 cordas</strong> de cada instrumento. Quantas cordas Rodrigo vai precisar comprar ao todo?',
+  r0: {
+    c: 6,
+    op1: 2,
+    op2: 3,
+    op3: 12,
+  },
+  q1: 'O papai de Letícia sempre diz pra ela usar a bota laranja se estiver chovendo, a camiseta do Tigre se for dia de jogo, a jaqueta cinza se for noite e um chapéu rosa, se fizer sol. Considerando que eles vão ao jogo à noite e o tempo estiver bom, o que Letícia deverá vestir?',
+  r1: {
+    c: 'Camiseta do Tigre e jaqueta cinza',
+    op1: 'Camiseta do Tigre, chapéu rosa e jaqueta cinza',
+    op2: 'Bota laranja e camiseta do Tigre',
+    op3: 'Jaqueta cinza, bota laranja e chapéu rosa',
+  },
+};
+
+
+export { mathOne, mathTwo, logicOne }
